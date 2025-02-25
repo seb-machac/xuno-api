@@ -1,1 +1,4408 @@
-
+{
+    "data": {
+      "studentid": "46",
+      "dates": [
+        {
+          "date": "2025-02-24",
+          "periods": [
+            {
+              "id": "2848612",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "1",
+              "className": "Core Yr10",
+              "date": "2025-02-24",
+              "periodPosition": 2,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2848612",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "1",
+                  "className": "Core Yr10",
+                  "date": "2025-02-24",
+                  "periodPosition": 2,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "187796",
+                    "dayid": "1353",
+                    "periodid": "4",
+                    "classid": "972",
+                    "cancelled": false,
+                    "starttime": "08:50:00",
+                    "endtime": "09:40:00",
+                    "roomlist": "1W2",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "972",
+                      "classcode": "10COR C",
+                      "blockcode": "BLA",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "Core Yr10 (10COR C-BLA)",
+                      "displayname": "Core Yr10",
+                      "identifier": "10COR C-BLA",
+                      "teachers": [
+                        {
+                          "id": "7325",
+                          "staffcode": "10470862",
+                          "firstname": "Adam",
+                          "surname": "BLAU",
+                          "status": "ACTV",
+                          "initials": "BLA",
+                          "crt": "0",
+                          "fullname": "BLAU Adam",
+                          "displayname": "Adam BLAU",
+                          "preferredname": "Adam",
+                          "email": "adam.blau@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7325",
+                          "staff": "A Blau"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "4",
+                      "name": "1",
+                      "timetableperiod": "1",
+                      "position": "2",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "2": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "3": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "4": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "5": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2849058",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "2",
+              "className": "PHaSE Yr10",
+              "date": "2025-02-24",
+              "periodPosition": 3,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2849058",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "2",
+                  "className": "PHaSE Yr10",
+                  "date": "2025-02-24",
+                  "periodPosition": 3,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "187797",
+                    "dayid": "1353",
+                    "periodid": "5",
+                    "classid": "992",
+                    "cancelled": false,
+                    "starttime": "09:40:00",
+                    "endtime": "10:30:00",
+                    "roomlist": "GW8",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "992",
+                      "classcode": "10PHS C",
+                      "blockcode": "HUR",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "PHaSE Yr10 (10PHS C-HUR)",
+                      "displayname": "PHaSE Yr10",
+                      "identifier": "10PHS C-HUR",
+                      "teachers": [
+                        {
+                          "id": "7287",
+                          "staffcode": "10695502",
+                          "firstname": "Nicole",
+                          "surname": "HURLEY",
+                          "status": "ACTV",
+                          "initials": "HUR",
+                          "crt": "0",
+                          "fullname": "HURLEY Nicole",
+                          "displayname": "Nicole HURLEY",
+                          "preferredname": "Nicole",
+                          "email": "nicole.hurley@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7287",
+                          "staff": "N Hurley"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "5",
+                      "name": "2",
+                      "timetableperiod": "2",
+                      "position": "3",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        },
+                        "2": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        },
+                        "3": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        },
+                        "4": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        },
+                        "5": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2848192",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "3",
+              "className": "English Yr10",
+              "date": "2025-02-24",
+              "periodPosition": 7,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2848192",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "3",
+                  "className": "English Yr10",
+                  "date": "2025-02-24",
+                  "periodPosition": 7,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "194317",
+                    "dayid": "1353",
+                    "periodid": "3",
+                    "classid": "975",
+                    "cancelled": false,
+                    "starttime": "11:00:00",
+                    "endtime": "11:50:00",
+                    "roomlist": "3G2",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "975",
+                      "classcode": "10ENG 1",
+                      "blockcode": "BLA",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "English Yr10 (10ENG 1-BLA)",
+                      "displayname": "English Yr10",
+                      "identifier": "10ENG 1-BLA",
+                      "teachers": [
+                        {
+                          "id": "7325",
+                          "staffcode": "10470862",
+                          "firstname": "Adam",
+                          "surname": "BLAU",
+                          "status": "ACTV",
+                          "initials": "BLA",
+                          "crt": "0",
+                          "fullname": "BLAU Adam",
+                          "displayname": "Adam BLAU",
+                          "preferredname": "Adam",
+                          "email": "adam.blau@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7325",
+                          "staff": "A Blau"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "3",
+                      "name": "3",
+                      "timetableperiod": "3",
+                      "position": "7",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        },
+                        "2": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        },
+                        "3": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        },
+                        "4": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        },
+                        "5": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2847391",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "4",
+              "className": "English Yr10",
+              "date": "2025-02-24",
+              "periodPosition": 8,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2847391",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "4",
+                  "className": "English Yr10",
+                  "date": "2025-02-24",
+                  "periodPosition": 8,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "194316",
+                    "dayid": "1353",
+                    "periodid": "1",
+                    "classid": "975",
+                    "cancelled": false,
+                    "starttime": "11:50:00",
+                    "endtime": "12:40:00",
+                    "roomlist": "3G2",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "975",
+                      "classcode": "10ENG 1",
+                      "blockcode": "BLA",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "English Yr10 (10ENG 1-BLA)",
+                      "displayname": "English Yr10",
+                      "identifier": "10ENG 1-BLA",
+                      "teachers": [
+                        {
+                          "id": "7325",
+                          "staffcode": "10470862",
+                          "firstname": "Adam",
+                          "surname": "BLAU",
+                          "status": "ACTV",
+                          "initials": "BLA",
+                          "crt": "0",
+                          "fullname": "BLAU Adam",
+                          "displayname": "Adam BLAU",
+                          "preferredname": "Adam",
+                          "email": "adam.blau@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7325",
+                          "staff": "A Blau"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "1",
+                      "name": "4",
+                      "timetableperiod": "4",
+                      "position": "8",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        },
+                        "2": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        },
+                        "3": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        },
+                        "4": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        },
+                        "5": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2847822",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "5",
+              "className": "Science Yr10",
+              "date": "2025-02-24",
+              "periodPosition": 11,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2847822",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "5",
+                  "className": "Science Yr10",
+                  "date": "2025-02-24",
+                  "periodPosition": 11,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "193116",
+                    "dayid": "1353",
+                    "periodid": "2",
+                    "classid": "999",
+                    "cancelled": false,
+                    "starttime": "13:20:00",
+                    "endtime": "14:10:00",
+                    "roomlist": "2P6",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "999",
+                      "classcode": "10SCI 3",
+                      "blockcode": "HAM,XAE",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "Science Yr10 (10SCI 3-HAM,XAE)",
+                      "displayname": "Science Yr10",
+                      "identifier": "10SCI 3-HAM,XAE",
+                      "teachers": {
+                        "1": {
+                          "id": "7490",
+                          "staffcode": "10816842",
+                          "firstname": "Joanna",
+                          "surname": "HAMMER",
+                          "status": "ACTV",
+                          "initials": "HAM",
+                          "crt": "0",
+                          "fullname": "HAMMER Jo",
+                          "displayname": "Jo HAMMER",
+                          "preferredname": "Jo",
+                          "email": "Jo.Hammer@education.vic.gov.au",
+                          "is_disabled": "0",
+                          "staffid": "7490",
+                          "staff": "J Hammer"
+                        }
+                      },
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "2",
+                      "name": "5",
+                      "timetableperiod": "5",
+                      "position": "11",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "2": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "3": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "4": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "5": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2849399",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "6",
+              "className": "Good Game Yr10",
+              "date": "2025-02-24",
+              "periodPosition": 12,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2849399",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "6",
+                  "className": "Good Game Yr10",
+                  "date": "2025-02-24",
+                  "periodPosition": 12,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "193120",
+                    "dayid": "1353",
+                    "periodid": "6",
+                    "classid": "983",
+                    "cancelled": false,
+                    "starttime": "14:10:00",
+                    "endtime": "15:00:00",
+                    "roomlist": "1P6",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "983",
+                      "classcode": "10GOO 1",
+                      "blockcode": "JOH",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "Good Game Yr10 (10GOO 1-JOH)",
+                      "displayname": "Good Game Yr10",
+                      "identifier": "10GOO 1-JOH",
+                      "teachers": [
+                        {
+                          "id": "7289",
+                          "staffcode": "10639227",
+                          "firstname": "Tessa",
+                          "surname": "JOHNS",
+                          "status": "ACTV",
+                          "initials": "JOH",
+                          "crt": "0",
+                          "fullname": "JOHNS Tessa",
+                          "displayname": "Tessa JOHNS",
+                          "preferredname": "Tessa",
+                          "email": "tessa.johns@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7289",
+                          "staff": "T Johns"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "6",
+                      "name": "6",
+                      "timetableperiod": "6",
+                      "position": "12",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        },
+                        "2": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        },
+                        "3": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        },
+                        "4": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        },
+                        "5": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            }
+          ],
+          "day": "Mon W1"
+        },
+        {
+          "date": "2025-02-25",
+          "periods": [
+            {
+              "id": "2851099",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "1",
+              "className": "History Yr10",
+              "date": "2025-02-25",
+              "periodPosition": 2,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2851099",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "1",
+                  "className": "History Yr10",
+                  "date": "2025-02-25",
+                  "periodPosition": 2,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "196049",
+                    "dayid": "1354",
+                    "periodid": "4",
+                    "classid": "984",
+                    "cancelled": false,
+                    "starttime": "08:50:00",
+                    "endtime": "09:40:00",
+                    "roomlist": "3G1",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "984",
+                      "classcode": "10HIS 1",
+                      "blockcode": "JAC",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "History Yr10 (10HIS 1-JAC)",
+                      "displayname": "History Yr10",
+                      "identifier": "10HIS 1-JAC",
+                      "teachers": [
+                        {
+                          "id": "7344",
+                          "staffcode": "09901227",
+                          "firstname": "Gigi",
+                          "surname": "JACOEL-KAMINSKY",
+                          "status": "ACTV",
+                          "initials": "JAC",
+                          "crt": "0",
+                          "fullname": "JACOEL-KAMINSKY Gigi",
+                          "displayname": "Gigi JACOEL-KAMINSKY",
+                          "preferredname": "Gigi",
+                          "email": "gigi.jacoel-kaminsky@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7344",
+                          "staff": "G Jacoel-kaminsky"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "4",
+                      "name": "1",
+                      "timetableperiod": "1",
+                      "position": "2",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "2": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "3": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "4": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "5": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": null,
+              "description": "No timetabled class",
+              "attendancetype": {
+                "name": "",
+                "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+              },
+              "timetables": [
+                {
+                  "id": null,
+                  "description": "No timetabled class",
+                  "timetable": {
+                    "id": null,
+                    "starttime": "09:40:00",
+                    "endtime": "10:30:00",
+                    "class": {
+                      "id": null,
+                      "fullname": "No timetabled class",
+                      "displayname": "No timetabled class"
+                    },
+                    "period": {
+                      "id": "5",
+                      "name": "2",
+                      "position": "3",
+                      "timetableperiod": "2"
+                    }
+                  },
+                  "attendancetype": {
+                    "name": "",
+                    "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+                  }
+                }
+              ],
+              "programs": [
+                {
+                  "id": "315",
+                  "session_id": "28",
+                  "student_id": "46",
+                  "program_id": "315",
+                  "session_date": "2025-02-25",
+                  "session_time": "09:40:00",
+                  "mark_attendance_type_id": null,
+                  "has_clashes": "0",
+                  "name": "VSV - Unit 1 & 2 Applied Computing",
+                  "duration": "50",
+                  "room_name": "Library - Ground Floor",
+                  "end_time": "10:30:00",
+                  "session_start_time": "09:40am",
+                  "session_end_time": "10:30am"
+                }
+              ]
+            },
+            {
+              "id": "2850637",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "3",
+              "className": "Good Game Yr10",
+              "date": "2025-02-25",
+              "periodPosition": 7,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2850637",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "3",
+                  "className": "Good Game Yr10",
+                  "date": "2025-02-25",
+                  "periodPosition": 7,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "193123",
+                    "dayid": "1354",
+                    "periodid": "3",
+                    "classid": "983",
+                    "cancelled": false,
+                    "starttime": "11:00:00",
+                    "endtime": "11:50:00",
+                    "roomlist": "1P6",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "983",
+                      "classcode": "10GOO 1",
+                      "blockcode": "JOH",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "Good Game Yr10 (10GOO 1-JOH)",
+                      "displayname": "Good Game Yr10",
+                      "identifier": "10GOO 1-JOH",
+                      "teachers": [
+                        {
+                          "id": "7289",
+                          "staffcode": "10639227",
+                          "firstname": "Tessa",
+                          "surname": "JOHNS",
+                          "status": "ACTV",
+                          "initials": "JOH",
+                          "crt": "0",
+                          "fullname": "JOHNS Tessa",
+                          "displayname": "Tessa JOHNS",
+                          "preferredname": "Tessa",
+                          "email": "tessa.johns@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7289",
+                          "staff": "T Johns"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "3",
+                      "name": "3",
+                      "timetableperiod": "3",
+                      "position": "7",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        },
+                        "2": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        },
+                        "3": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        },
+                        "4": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        },
+                        "5": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2849879",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "4",
+              "className": "Maths Methods Yr10",
+              "date": "2025-02-25",
+              "periodPosition": 8,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2849879",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "4",
+                  "className": "Maths Methods Yr10",
+                  "date": "2025-02-25",
+                  "periodPosition": 8,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "196048",
+                    "dayid": "1354",
+                    "periodid": "1",
+                    "classid": "989",
+                    "cancelled": false,
+                    "starttime": "11:50:00",
+                    "endtime": "12:40:00",
+                    "roomlist": "2G4",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "989",
+                      "classcode": "10MAM 2",
+                      "blockcode": "APP,DOV",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "Maths Methods Yr10 (10MAM 2-APP,DOV)",
+                      "displayname": "Maths Methods Yr10",
+                      "identifier": "10MAM 2-APP,DOV",
+                      "teachers": {
+                        "1": {
+                          "id": "7353",
+                          "staffcode": "10891574",
+                          "firstname": "V",
+                          "surname": "DOULL",
+                          "status": "ACTV",
+                          "initials": "DOV",
+                          "crt": "0",
+                          "fullname": "DOULL V",
+                          "displayname": "V DOULL",
+                          "preferredname": "V",
+                          "email": "v.doull@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7353",
+                          "staff": "V Doull"
+                        }
+                      },
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "1",
+                      "name": "4",
+                      "timetableperiod": "4",
+                      "position": "8",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        },
+                        "2": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        },
+                        "3": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        },
+                        "4": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        },
+                        "5": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2850215",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "5",
+              "className": "English Yr10",
+              "date": "2025-02-25",
+              "periodPosition": 11,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2850215",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "5",
+                  "className": "English Yr10",
+                  "date": "2025-02-25",
+                  "periodPosition": 11,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "194318",
+                    "dayid": "1354",
+                    "periodid": "2",
+                    "classid": "975",
+                    "cancelled": false,
+                    "starttime": "13:20:00",
+                    "endtime": "14:10:00",
+                    "roomlist": "3G2",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "975",
+                      "classcode": "10ENG 1",
+                      "blockcode": "BLA",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "English Yr10 (10ENG 1-BLA)",
+                      "displayname": "English Yr10",
+                      "identifier": "10ENG 1-BLA",
+                      "teachers": [
+                        {
+                          "id": "7325",
+                          "staffcode": "10470862",
+                          "firstname": "Adam",
+                          "surname": "BLAU",
+                          "status": "ACTV",
+                          "initials": "BLA",
+                          "crt": "0",
+                          "fullname": "BLAU Adam",
+                          "displayname": "Adam BLAU",
+                          "preferredname": "Adam",
+                          "email": "adam.blau@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7325",
+                          "staff": "A Blau"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "2",
+                      "name": "5",
+                      "timetableperiod": "5",
+                      "position": "11",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "2": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "3": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "4": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "5": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2851826",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "6",
+              "className": "English Yr10",
+              "date": "2025-02-25",
+              "periodPosition": 12,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2851826",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "6",
+                  "className": "English Yr10",
+                  "date": "2025-02-25",
+                  "periodPosition": 12,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "194319",
+                    "dayid": "1354",
+                    "periodid": "6",
+                    "classid": "975",
+                    "cancelled": false,
+                    "starttime": "14:10:00",
+                    "endtime": "15:00:00",
+                    "roomlist": "3G2",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "975",
+                      "classcode": "10ENG 1",
+                      "blockcode": "BLA",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "English Yr10 (10ENG 1-BLA)",
+                      "displayname": "English Yr10",
+                      "identifier": "10ENG 1-BLA",
+                      "teachers": [
+                        {
+                          "id": "7325",
+                          "staffcode": "10470862",
+                          "firstname": "Adam",
+                          "surname": "BLAU",
+                          "status": "ACTV",
+                          "initials": "BLA",
+                          "crt": "0",
+                          "fullname": "BLAU Adam",
+                          "displayname": "Adam BLAU",
+                          "preferredname": "Adam",
+                          "email": "adam.blau@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7325",
+                          "staff": "A Blau"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "6",
+                      "name": "6",
+                      "timetableperiod": "6",
+                      "position": "12",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        },
+                        "2": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        },
+                        "3": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        },
+                        "4": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        },
+                        "5": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            }
+          ],
+          "day": "Tue W1"
+        },
+        {
+          "date": "2025-02-26",
+          "periods": [
+            {
+              "id": "2853353",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "1",
+              "className": "Science Yr10",
+              "date": "2025-02-26",
+              "periodPosition": 2,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2853353",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "1",
+                  "className": "Science Yr10",
+                  "date": "2025-02-26",
+                  "periodPosition": 2,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "193129",
+                    "dayid": "1355",
+                    "periodid": "4",
+                    "classid": "999",
+                    "cancelled": false,
+                    "starttime": "08:50:00",
+                    "endtime": "09:40:00",
+                    "roomlist": "2S2",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "999",
+                      "classcode": "10SCI 3",
+                      "blockcode": "HAM,XAE",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "Science Yr10 (10SCI 3-HAM,XAE)",
+                      "displayname": "Science Yr10",
+                      "identifier": "10SCI 3-HAM,XAE",
+                      "teachers": {
+                        "1": {
+                          "id": "7490",
+                          "staffcode": "10816842",
+                          "firstname": "Joanna",
+                          "surname": "HAMMER",
+                          "status": "ACTV",
+                          "initials": "HAM",
+                          "crt": "0",
+                          "fullname": "HAMMER Jo",
+                          "displayname": "Jo HAMMER",
+                          "preferredname": "Jo",
+                          "email": "Jo.Hammer@education.vic.gov.au",
+                          "is_disabled": "0",
+                          "staffid": "7490",
+                          "staff": "J Hammer"
+                        }
+                      },
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "4",
+                      "name": "1",
+                      "timetableperiod": "1",
+                      "position": "2",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "2": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "3": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "4": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "5": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2853774",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "2",
+              "className": "Science Yr10",
+              "date": "2025-02-26",
+              "periodPosition": 3,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2853774",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "2",
+                  "className": "Science Yr10",
+                  "date": "2025-02-26",
+                  "periodPosition": 3,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "193130",
+                    "dayid": "1355",
+                    "periodid": "5",
+                    "classid": "999",
+                    "cancelled": false,
+                    "starttime": "09:40:00",
+                    "endtime": "10:30:00",
+                    "roomlist": "2S2",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "999",
+                      "classcode": "10SCI 3",
+                      "blockcode": "HAM,XAE",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "Science Yr10 (10SCI 3-HAM,XAE)",
+                      "displayname": "Science Yr10",
+                      "identifier": "10SCI 3-HAM,XAE",
+                      "teachers": {
+                        "1": {
+                          "id": "7490",
+                          "staffcode": "10816842",
+                          "firstname": "Joanna",
+                          "surname": "HAMMER",
+                          "status": "ACTV",
+                          "initials": "HAM",
+                          "crt": "0",
+                          "fullname": "HAMMER Jo",
+                          "displayname": "Jo HAMMER",
+                          "preferredname": "Jo",
+                          "email": "Jo.Hammer@education.vic.gov.au",
+                          "is_disabled": "0",
+                          "staffid": "7490",
+                          "staff": "J Hammer"
+                        }
+                      },
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "5",
+                      "name": "2",
+                      "timetableperiod": "2",
+                      "position": "3",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        },
+                        "2": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        },
+                        "3": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        },
+                        "4": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        },
+                        "5": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2330070",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "3",
+              "className": "Good Game Yr10",
+              "date": "2025-02-26",
+              "periodPosition": 7,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2330070",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "3",
+                  "className": "Good Game Yr10",
+                  "date": "2025-02-26",
+                  "periodPosition": 7,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "160660",
+                    "dayid": "1355",
+                    "periodid": "3",
+                    "classid": "983",
+                    "cancelled": false,
+                    "starttime": "11:00:00",
+                    "endtime": "11:50:00",
+                    "roomlist": "2G2",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "983",
+                      "classcode": "10GOO 1",
+                      "blockcode": "JOH",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "Good Game Yr10 (10GOO 1-JOH)",
+                      "displayname": "Good Game Yr10",
+                      "identifier": "10GOO 1-JOH",
+                      "teachers": [
+                        {
+                          "id": "7289",
+                          "staffcode": "10639227",
+                          "firstname": "Tessa",
+                          "surname": "JOHNS",
+                          "status": "ACTV",
+                          "initials": "JOH",
+                          "crt": "0",
+                          "fullname": "JOHNS Tessa",
+                          "displayname": "Tessa JOHNS",
+                          "preferredname": "Tessa",
+                          "email": "tessa.johns@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7289",
+                          "staff": "T Johns"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "3",
+                      "name": "3",
+                      "timetableperiod": "3",
+                      "position": "7",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        },
+                        "2": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        },
+                        "3": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        },
+                        "4": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        },
+                        "5": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2852248",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "4",
+              "className": "Good Game Yr10",
+              "date": "2025-02-26",
+              "periodPosition": 8,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2852248",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "4",
+                  "className": "Good Game Yr10",
+                  "date": "2025-02-26",
+                  "periodPosition": 8,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "193127",
+                    "dayid": "1355",
+                    "periodid": "1",
+                    "classid": "983",
+                    "cancelled": false,
+                    "starttime": "11:50:00",
+                    "endtime": "12:40:00",
+                    "roomlist": "2G2",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "983",
+                      "classcode": "10GOO 1",
+                      "blockcode": "JOH",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "Good Game Yr10 (10GOO 1-JOH)",
+                      "displayname": "Good Game Yr10",
+                      "identifier": "10GOO 1-JOH",
+                      "teachers": [
+                        {
+                          "id": "7289",
+                          "staffcode": "10639227",
+                          "firstname": "Tessa",
+                          "surname": "JOHNS",
+                          "status": "ACTV",
+                          "initials": "JOH",
+                          "crt": "0",
+                          "fullname": "JOHNS Tessa",
+                          "displayname": "Tessa JOHNS",
+                          "preferredname": "Tessa",
+                          "email": "tessa.johns@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7289",
+                          "staff": "T Johns"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "1",
+                      "name": "4",
+                      "timetableperiod": "4",
+                      "position": "8",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        },
+                        "2": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        },
+                        "3": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        },
+                        "4": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        },
+                        "5": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2852690",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "5",
+              "className": "Maths Methods Yr10",
+              "date": "2025-02-26",
+              "periodPosition": 11,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2852690",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "5",
+                  "className": "Maths Methods Yr10",
+                  "date": "2025-02-26",
+                  "periodPosition": 11,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "196050",
+                    "dayid": "1355",
+                    "periodid": "2",
+                    "classid": "989",
+                    "cancelled": false,
+                    "starttime": "13:20:00",
+                    "endtime": "14:10:00",
+                    "roomlist": "2G4",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "989",
+                      "classcode": "10MAM 2",
+                      "blockcode": "APP,DOV",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "Maths Methods Yr10 (10MAM 2-APP,DOV)",
+                      "displayname": "Maths Methods Yr10",
+                      "identifier": "10MAM 2-APP,DOV",
+                      "teachers": {
+                        "1": {
+                          "id": "7353",
+                          "staffcode": "10891574",
+                          "firstname": "V",
+                          "surname": "DOULL",
+                          "status": "ACTV",
+                          "initials": "DOV",
+                          "crt": "0",
+                          "fullname": "DOULL V",
+                          "displayname": "V DOULL",
+                          "preferredname": "V",
+                          "email": "v.doull@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7353",
+                          "staff": "V Doull"
+                        }
+                      },
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "2",
+                      "name": "5",
+                      "timetableperiod": "5",
+                      "position": "11",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "2": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "3": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "4": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "5": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": null,
+              "description": "No timetabled class",
+              "attendancetype": {
+                "name": "",
+                "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+              },
+              "timetables": [
+                {
+                  "id": null,
+                  "description": "No timetabled class",
+                  "timetable": {
+                    "id": null,
+                    "starttime": "14:10:00",
+                    "endtime": "15:00:00",
+                    "class": {
+                      "id": null,
+                      "fullname": "No timetabled class",
+                      "displayname": "No timetabled class"
+                    },
+                    "period": {
+                      "id": "6",
+                      "name": "6",
+                      "position": "12",
+                      "timetableperiod": "6"
+                    }
+                  },
+                  "attendancetype": {
+                    "name": "",
+                    "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+                  }
+                }
+              ],
+              "programs": []
+            }
+          ],
+          "day": "Wed W1"
+        },
+        {
+          "date": "2025-02-27",
+          "periods": [
+            {
+              "id": "2855701",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "1",
+              "className": "English Yr10",
+              "date": "2025-02-27",
+              "periodPosition": 2,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2855701",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "1",
+                  "className": "English Yr10",
+                  "date": "2025-02-27",
+                  "periodPosition": 2,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "194320",
+                    "dayid": "1356",
+                    "periodid": "4",
+                    "classid": "975",
+                    "cancelled": false,
+                    "starttime": "08:50:00",
+                    "endtime": "09:40:00",
+                    "roomlist": "3G2",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "975",
+                      "classcode": "10ENG 1",
+                      "blockcode": "BLA",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "English Yr10 (10ENG 1-BLA)",
+                      "displayname": "English Yr10",
+                      "identifier": "10ENG 1-BLA",
+                      "teachers": [
+                        {
+                          "id": "7325",
+                          "staffcode": "10470862",
+                          "firstname": "Adam",
+                          "surname": "BLAU",
+                          "status": "ACTV",
+                          "initials": "BLA",
+                          "crt": "0",
+                          "fullname": "BLAU Adam",
+                          "displayname": "Adam BLAU",
+                          "preferredname": "Adam",
+                          "email": "adam.blau@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7325",
+                          "staff": "A Blau"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "4",
+                      "name": "1",
+                      "timetableperiod": "1",
+                      "position": "2",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "2": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "3": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "4": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "5": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2856121",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "2",
+              "className": "PHaSE Yr10",
+              "date": "2025-02-27",
+              "periodPosition": 3,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2856121",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "2",
+                  "className": "PHaSE Yr10",
+                  "date": "2025-02-27",
+                  "periodPosition": 3,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "193135",
+                    "dayid": "1356",
+                    "periodid": "5",
+                    "classid": "995",
+                    "cancelled": false,
+                    "starttime": "09:40:00",
+                    "endtime": "10:30:00",
+                    "roomlist": "GYM1",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "995",
+                      "classcode": "10PHS F",
+                      "blockcode": "PUX",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "PHaSE Yr10 (10PHS F-PUX)",
+                      "displayname": "PHaSE Yr10",
+                      "identifier": "10PHS F-PUX",
+                      "teachers": [
+                        {
+                          "id": "7300",
+                          "staffcode": "09293087",
+                          "firstname": "Grant",
+                          "surname": "PUXLEY",
+                          "status": "ACTV",
+                          "initials": "PUX",
+                          "crt": "0",
+                          "fullname": "PUXLEY Grant",
+                          "displayname": "Grant PUXLEY",
+                          "preferredname": "Grant",
+                          "email": "grant.puxley@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7300",
+                          "staff": "G Puxley"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "5",
+                      "name": "2",
+                      "timetableperiod": "2",
+                      "position": "3",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        },
+                        "2": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        },
+                        "3": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        },
+                        "4": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        },
+                        "5": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2855327",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "3",
+              "className": "History Yr10",
+              "date": "2025-02-27",
+              "periodPosition": 7,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2855327",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "3",
+                  "className": "History Yr10",
+                  "date": "2025-02-27",
+                  "periodPosition": 7,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "196052",
+                    "dayid": "1356",
+                    "periodid": "3",
+                    "classid": "984",
+                    "cancelled": false,
+                    "starttime": "11:00:00",
+                    "endtime": "11:50:00",
+                    "roomlist": "3G1",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "984",
+                      "classcode": "10HIS 1",
+                      "blockcode": "JAC",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "History Yr10 (10HIS 1-JAC)",
+                      "displayname": "History Yr10",
+                      "identifier": "10HIS 1-JAC",
+                      "teachers": [
+                        {
+                          "id": "7344",
+                          "staffcode": "09901227",
+                          "firstname": "Gigi",
+                          "surname": "JACOEL-KAMINSKY",
+                          "status": "ACTV",
+                          "initials": "JAC",
+                          "crt": "0",
+                          "fullname": "JACOEL-KAMINSKY Gigi",
+                          "displayname": "Gigi JACOEL-KAMINSKY",
+                          "preferredname": "Gigi",
+                          "email": "gigi.jacoel-kaminsky@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7344",
+                          "staff": "G Jacoel-kaminsky"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "3",
+                      "name": "3",
+                      "timetableperiod": "3",
+                      "position": "7",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        },
+                        "2": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        },
+                        "3": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        },
+                        "4": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        },
+                        "5": {
+                          "starttime": "11:00:00",
+                          "endtime": "11:50:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2854609",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "4",
+              "className": "History Yr10",
+              "date": "2025-02-27",
+              "periodPosition": 8,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2854609",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "4",
+                  "className": "History Yr10",
+                  "date": "2025-02-27",
+                  "periodPosition": 8,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "196051",
+                    "dayid": "1356",
+                    "periodid": "1",
+                    "classid": "984",
+                    "cancelled": false,
+                    "starttime": "11:50:00",
+                    "endtime": "12:40:00",
+                    "roomlist": "3G1",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "984",
+                      "classcode": "10HIS 1",
+                      "blockcode": "JAC",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "History Yr10 (10HIS 1-JAC)",
+                      "displayname": "History Yr10",
+                      "identifier": "10HIS 1-JAC",
+                      "teachers": [
+                        {
+                          "id": "7344",
+                          "staffcode": "09901227",
+                          "firstname": "Gigi",
+                          "surname": "JACOEL-KAMINSKY",
+                          "status": "ACTV",
+                          "initials": "JAC",
+                          "crt": "0",
+                          "fullname": "JACOEL-KAMINSKY Gigi",
+                          "displayname": "Gigi JACOEL-KAMINSKY",
+                          "preferredname": "Gigi",
+                          "email": "gigi.jacoel-kaminsky@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7344",
+                          "staff": "G Jacoel-kaminsky"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "1",
+                      "name": "4",
+                      "timetableperiod": "4",
+                      "position": "8",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        },
+                        "2": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        },
+                        "3": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        },
+                        "4": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        },
+                        "5": {
+                          "starttime": "11:50:00",
+                          "endtime": "12:40:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2332087",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "5",
+              "className": "Maths Methods Yr10",
+              "date": "2025-02-27",
+              "periodPosition": 11,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2332087",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "5",
+                  "className": "Maths Methods Yr10",
+                  "date": "2025-02-27",
+                  "periodPosition": 11,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "163823",
+                    "dayid": "1356",
+                    "periodid": "2",
+                    "classid": "989",
+                    "cancelled": false,
+                    "starttime": "13:20:00",
+                    "endtime": "14:10:00",
+                    "roomlist": "2G4",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "989",
+                      "classcode": "10MAM 2",
+                      "blockcode": "APP,DOV",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "Maths Methods Yr10 (10MAM 2-APP,DOV)",
+                      "displayname": "Maths Methods Yr10",
+                      "identifier": "10MAM 2-APP,DOV",
+                      "teachers": {
+                        "1": {
+                          "id": "7353",
+                          "staffcode": "10891574",
+                          "firstname": "V",
+                          "surname": "DOULL",
+                          "status": "ACTV",
+                          "initials": "DOV",
+                          "crt": "0",
+                          "fullname": "DOULL V",
+                          "displayname": "V DOULL",
+                          "preferredname": "V",
+                          "email": "v.doull@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7353",
+                          "staff": "V Doull"
+                        }
+                      },
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "2",
+                      "name": "5",
+                      "timetableperiod": "5",
+                      "position": "11",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "2": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "3": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "4": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "5": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2856488",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "6",
+              "className": "Maths Methods Yr10",
+              "date": "2025-02-27",
+              "periodPosition": 12,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2856488",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "6",
+                  "className": "Maths Methods Yr10",
+                  "date": "2025-02-27",
+                  "periodPosition": 12,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "196053",
+                    "dayid": "1356",
+                    "periodid": "6",
+                    "classid": "989",
+                    "cancelled": false,
+                    "starttime": "14:10:00",
+                    "endtime": "15:00:00",
+                    "roomlist": "2G4",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "989",
+                      "classcode": "10MAM 2",
+                      "blockcode": "APP,DOV",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "Maths Methods Yr10 (10MAM 2-APP,DOV)",
+                      "displayname": "Maths Methods Yr10",
+                      "identifier": "10MAM 2-APP,DOV",
+                      "teachers": {
+                        "1": {
+                          "id": "7353",
+                          "staffcode": "10891574",
+                          "firstname": "V",
+                          "surname": "DOULL",
+                          "status": "ACTV",
+                          "initials": "DOV",
+                          "crt": "0",
+                          "fullname": "DOULL V",
+                          "displayname": "V DOULL",
+                          "preferredname": "V",
+                          "email": "v.doull@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7353",
+                          "staff": "V Doull"
+                        }
+                      },
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "6",
+                      "name": "6",
+                      "timetableperiod": "6",
+                      "position": "12",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        },
+                        "2": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        },
+                        "3": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        },
+                        "4": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        },
+                        "5": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            }
+          ],
+          "day": "Thu W1"
+        },
+        {
+          "date": "2025-02-28",
+          "periods": [
+            {
+              "id": "2858008",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "1",
+              "className": "Science Yr10",
+              "date": "2025-02-28",
+              "periodPosition": 2,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2858008",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "1",
+                  "className": "Science Yr10",
+                  "date": "2025-02-28",
+                  "periodPosition": 2,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "193139",
+                    "dayid": "1357",
+                    "periodid": "4",
+                    "classid": "999",
+                    "cancelled": false,
+                    "starttime": "08:50:00",
+                    "endtime": "09:40:00",
+                    "roomlist": "2P6",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "999",
+                      "classcode": "10SCI 3",
+                      "blockcode": "HAM,XAE",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "Science Yr10 (10SCI 3-HAM,XAE)",
+                      "displayname": "Science Yr10",
+                      "identifier": "10SCI 3-HAM,XAE",
+                      "teachers": {
+                        "1": {
+                          "id": "7490",
+                          "staffcode": "10816842",
+                          "firstname": "Joanna",
+                          "surname": "HAMMER",
+                          "status": "ACTV",
+                          "initials": "HAM",
+                          "crt": "0",
+                          "fullname": "HAMMER Jo",
+                          "displayname": "Jo HAMMER",
+                          "preferredname": "Jo",
+                          "email": "Jo.Hammer@education.vic.gov.au",
+                          "is_disabled": "0",
+                          "staffid": "7490",
+                          "staff": "J Hammer"
+                        }
+                      },
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "4",
+                      "name": "1",
+                      "timetableperiod": "1",
+                      "position": "2",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "2": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "3": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "4": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        },
+                        "5": {
+                          "starttime": "08:50:00",
+                          "endtime": "09:40:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2858402",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "2",
+              "className": "History Yr10",
+              "date": "2025-02-28",
+              "periodPosition": 3,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2858402",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "2",
+                  "className": "History Yr10",
+                  "date": "2025-02-28",
+                  "periodPosition": 3,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "196054",
+                    "dayid": "1357",
+                    "periodid": "5",
+                    "classid": "984",
+                    "cancelled": false,
+                    "starttime": "09:40:00",
+                    "endtime": "10:30:00",
+                    "roomlist": "3G1",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "984",
+                      "classcode": "10HIS 1",
+                      "blockcode": "JAC",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "History Yr10 (10HIS 1-JAC)",
+                      "displayname": "History Yr10",
+                      "identifier": "10HIS 1-JAC",
+                      "teachers": [
+                        {
+                          "id": "7344",
+                          "staffcode": "09901227",
+                          "firstname": "Gigi",
+                          "surname": "JACOEL-KAMINSKY",
+                          "status": "ACTV",
+                          "initials": "JAC",
+                          "crt": "0",
+                          "fullname": "JACOEL-KAMINSKY Gigi",
+                          "displayname": "Gigi JACOEL-KAMINSKY",
+                          "preferredname": "Gigi",
+                          "email": "gigi.jacoel-kaminsky@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7344",
+                          "staff": "G Jacoel-kaminsky"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "5",
+                      "name": "2",
+                      "timetableperiod": "2",
+                      "position": "3",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        },
+                        "2": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        },
+                        "3": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        },
+                        "4": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        },
+                        "5": {
+                          "starttime": "09:40:00",
+                          "endtime": "10:30:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": null,
+              "description": "No timetabled class",
+              "attendancetype": {
+                "name": "",
+                "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+              },
+              "timetables": [
+                {
+                  "id": null,
+                  "description": "No timetabled class",
+                  "timetable": {
+                    "id": null,
+                    "starttime": "11:00:00",
+                    "endtime": "11:50:00",
+                    "class": {
+                      "id": null,
+                      "fullname": "No timetabled class",
+                      "displayname": "No timetabled class"
+                    },
+                    "period": {
+                      "id": "3",
+                      "name": "3",
+                      "position": "7",
+                      "timetableperiod": "3"
+                    }
+                  },
+                  "attendancetype": {
+                    "name": "",
+                    "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+                  }
+                }
+              ],
+              "programs": [
+                {
+                  "id": "315",
+                  "session_id": "31",
+                  "student_id": "46",
+                  "program_id": "315",
+                  "session_date": "2025-02-28",
+                  "session_time": "11:00:00",
+                  "mark_attendance_type_id": null,
+                  "has_clashes": "0",
+                  "name": "VSV - Unit 1 & 2 Applied Computing",
+                  "duration": "50",
+                  "room_name": "Library - Ground Floor",
+                  "end_time": "11:50:00",
+                  "session_start_time": "11:00am",
+                  "session_end_time": "11:50am"
+                }
+              ]
+            },
+            {
+              "id": null,
+              "description": "No timetabled class",
+              "attendancetype": {
+                "name": "",
+                "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+              },
+              "timetables": [
+                {
+                  "id": null,
+                  "description": "No timetabled class",
+                  "timetable": {
+                    "id": null,
+                    "starttime": "11:50:00",
+                    "endtime": "12:40:00",
+                    "class": {
+                      "id": null,
+                      "fullname": "No timetabled class",
+                      "displayname": "No timetabled class"
+                    },
+                    "period": {
+                      "id": "1",
+                      "name": "4",
+                      "position": "8",
+                      "timetableperiod": "4"
+                    }
+                  },
+                  "attendancetype": {
+                    "name": "",
+                    "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+                  }
+                }
+              ],
+              "programs": [
+                {
+                  "id": "315",
+                  "session_id": "34",
+                  "student_id": "46",
+                  "program_id": "315",
+                  "session_date": "2025-02-28",
+                  "session_time": "11:50:00",
+                  "mark_attendance_type_id": null,
+                  "has_clashes": "0",
+                  "name": "VSV - Unit 1 & 2 Applied Computing",
+                  "duration": "50",
+                  "room_name": "Library - Ground Floor",
+                  "end_time": "12:40:00",
+                  "session_start_time": "11:50am",
+                  "session_end_time": "12:40pm"
+                }
+              ]
+            },
+            {
+              "id": "2334423",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "5",
+              "className": "Maths Methods Yr10",
+              "date": "2025-02-28",
+              "periodPosition": 11,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2334423",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "5",
+                  "className": "Maths Methods Yr10",
+                  "date": "2025-02-28",
+                  "periodPosition": 11,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "163826",
+                    "dayid": "1357",
+                    "periodid": "2",
+                    "classid": "989",
+                    "cancelled": false,
+                    "starttime": "13:20:00",
+                    "endtime": "14:10:00",
+                    "roomlist": "2G4",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "989",
+                      "classcode": "10MAM 2",
+                      "blockcode": "APP,DOV",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "Maths Methods Yr10 (10MAM 2-APP,DOV)",
+                      "displayname": "Maths Methods Yr10",
+                      "identifier": "10MAM 2-APP,DOV",
+                      "teachers": {
+                        "1": {
+                          "id": "7353",
+                          "staffcode": "10891574",
+                          "firstname": "V",
+                          "surname": "DOULL",
+                          "status": "ACTV",
+                          "initials": "DOV",
+                          "crt": "0",
+                          "fullname": "DOULL V",
+                          "displayname": "V DOULL",
+                          "preferredname": "V",
+                          "email": "v.doull@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7353",
+                          "staff": "V Doull"
+                        }
+                      },
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "2",
+                      "name": "5",
+                      "timetableperiod": "5",
+                      "position": "11",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "2": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "3": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "4": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        },
+                        "5": {
+                          "starttime": "13:20:00",
+                          "endtime": "14:10:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": "2858780",
+              "studentid": "46",
+              "notes": null,
+              "attendedtype": "1",
+              "parent_absence_reason": null,
+              "parent_absence_reason_datetime": null,
+              "attendance_updated_at": null,
+              "actioned": null,
+              "fullName": "MACHAC Seb",
+              "studentForm": "10C",
+              "period": "6",
+              "className": "PHaSE Yr10",
+              "date": "2025-02-28",
+              "periodPosition": 12,
+              "explanationRequired": "0",
+              "arrival_time": null,
+              "selected_parent_absence_reason": null,
+              "timetables": [
+                {
+                  "id": "2858780",
+                  "studentid": "46",
+                  "notes": null,
+                  "attendedtype": "1",
+                  "parent_absence_reason": null,
+                  "parent_absence_reason_datetime": null,
+                  "attendance_updated_at": null,
+                  "actioned": null,
+                  "fullName": "MACHAC Seb",
+                  "studentForm": "10C",
+                  "period": "6",
+                  "className": "PHaSE Yr10",
+                  "date": "2025-02-28",
+                  "periodPosition": 12,
+                  "explanationRequired": "0",
+                  "arrival_time": null,
+                  "selected_parent_absence_reason": null,
+                  "timetable": {
+                    "id": "187818",
+                    "dayid": "1357",
+                    "periodid": "6",
+                    "classid": "992",
+                    "cancelled": false,
+                    "starttime": "14:10:00",
+                    "endtime": "15:00:00",
+                    "roomlist": "GYM3",
+                    "roomchanged": false,
+                    "class": {
+                      "id": "992",
+                      "classcode": "10PHS C",
+                      "blockcode": "HUR",
+                      "name": null,
+                      "yearlevel": "10",
+                      "fullname": "PHaSE Yr10 (10PHS C-HUR)",
+                      "displayname": "PHaSE Yr10",
+                      "identifier": "10PHS C-HUR",
+                      "teachers": [
+                        {
+                          "id": "7287",
+                          "staffcode": "10695502",
+                          "firstname": "Nicole",
+                          "surname": "HURLEY",
+                          "status": "ACTV",
+                          "initials": "HUR",
+                          "crt": "0",
+                          "fullname": "HURLEY Nicole",
+                          "displayname": "Nicole HURLEY",
+                          "preferredname": "Nicole",
+                          "email": "nicole.hurley@portmelbournesc.vic.edu.au",
+                          "is_disabled": "0",
+                          "staffid": "7287",
+                          "staff": "N Hurley"
+                        }
+                      ],
+                      "quilt": {
+                        "id": "9",
+                        "yearsem": "2025S1",
+                        "modifier": "A",
+                        "name": "2025S1A",
+                        "min": "2025-01-30",
+                        "max": "2025-06-20"
+                      },
+                      "pti_exclusions": []
+                    },
+                    "period": {
+                      "id": "6",
+                      "name": "6",
+                      "timetableperiod": "6",
+                      "position": "12",
+                      "yardduty": false,
+                      "times": {
+                        "1": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        },
+                        "2": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        },
+                        "3": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        },
+                        "4": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        },
+                        "5": {
+                          "starttime": "14:10:00",
+                          "endtime": "15:00:00"
+                        }
+                      }
+                    }
+                  },
+                  "attendancetype": {
+                    "id": "1",
+                    "name": "Unmarked",
+                    "treatasid": "1",
+                    "internal": "1",
+                    "hide": "0",
+                    "position": "1",
+                    "explanation_required": "0",
+                    "exportcode": null,
+                    "dotimage": "//pmsc.xuno.com.au/images/dotlightgrey.png",
+                    "colour": null,
+                    "can_use": true
+                  }
+                }
+              ],
+              "programs": []
+            }
+          ],
+          "day": "Fri W1"
+        },
+        {
+          "date": "2025-03-01",
+          "periods": [
+            {
+              "id": null,
+              "description": "No timetabled class",
+              "attendancetype": {
+                "name": "",
+                "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+              },
+              "timetables": [
+                {
+                  "id": null,
+                  "description": "No timetabled class",
+                  "timetable": {
+                    "id": null,
+                    "starttime": "00:00:00",
+                    "endtime": "00:00:00",
+                    "class": {
+                      "id": null,
+                      "fullname": "No timetabled class",
+                      "displayname": "No timetabled class"
+                    },
+                    "period": {
+                      "id": "4",
+                      "name": "1",
+                      "position": "2",
+                      "timetableperiod": "1"
+                    }
+                  },
+                  "attendancetype": {
+                    "name": "",
+                    "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": null,
+              "description": "No timetabled class",
+              "attendancetype": {
+                "name": "",
+                "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+              },
+              "timetables": [
+                {
+                  "id": null,
+                  "description": "No timetabled class",
+                  "timetable": {
+                    "id": null,
+                    "starttime": "00:00:00",
+                    "endtime": "00:00:00",
+                    "class": {
+                      "id": null,
+                      "fullname": "No timetabled class",
+                      "displayname": "No timetabled class"
+                    },
+                    "period": {
+                      "id": "5",
+                      "name": "2",
+                      "position": "3",
+                      "timetableperiod": "2"
+                    }
+                  },
+                  "attendancetype": {
+                    "name": "",
+                    "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": null,
+              "description": "No timetabled class",
+              "attendancetype": {
+                "name": "",
+                "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+              },
+              "timetables": [
+                {
+                  "id": null,
+                  "description": "No timetabled class",
+                  "timetable": {
+                    "id": null,
+                    "starttime": "00:00:00",
+                    "endtime": "00:00:00",
+                    "class": {
+                      "id": null,
+                      "fullname": "No timetabled class",
+                      "displayname": "No timetabled class"
+                    },
+                    "period": {
+                      "id": "3",
+                      "name": "3",
+                      "position": "7",
+                      "timetableperiod": "3"
+                    }
+                  },
+                  "attendancetype": {
+                    "name": "",
+                    "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": null,
+              "description": "No timetabled class",
+              "attendancetype": {
+                "name": "",
+                "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+              },
+              "timetables": [
+                {
+                  "id": null,
+                  "description": "No timetabled class",
+                  "timetable": {
+                    "id": null,
+                    "starttime": "00:00:00",
+                    "endtime": "00:00:00",
+                    "class": {
+                      "id": null,
+                      "fullname": "No timetabled class",
+                      "displayname": "No timetabled class"
+                    },
+                    "period": {
+                      "id": "1",
+                      "name": "4",
+                      "position": "8",
+                      "timetableperiod": "4"
+                    }
+                  },
+                  "attendancetype": {
+                    "name": "",
+                    "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": null,
+              "description": "No timetabled class",
+              "attendancetype": {
+                "name": "",
+                "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+              },
+              "timetables": [
+                {
+                  "id": null,
+                  "description": "No timetabled class",
+                  "timetable": {
+                    "id": null,
+                    "starttime": "00:00:00",
+                    "endtime": "00:00:00",
+                    "class": {
+                      "id": null,
+                      "fullname": "No timetabled class",
+                      "displayname": "No timetabled class"
+                    },
+                    "period": {
+                      "id": "2",
+                      "name": "5",
+                      "position": "11",
+                      "timetableperiod": "5"
+                    }
+                  },
+                  "attendancetype": {
+                    "name": "",
+                    "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": null,
+              "description": "No timetabled class",
+              "attendancetype": {
+                "name": "",
+                "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+              },
+              "timetables": [
+                {
+                  "id": null,
+                  "description": "No timetabled class",
+                  "timetable": {
+                    "id": null,
+                    "starttime": "00:00:00",
+                    "endtime": "00:00:00",
+                    "class": {
+                      "id": null,
+                      "fullname": "No timetabled class",
+                      "displayname": "No timetabled class"
+                    },
+                    "period": {
+                      "id": "6",
+                      "name": "6",
+                      "position": "12",
+                      "timetableperiod": "6"
+                    }
+                  },
+                  "attendancetype": {
+                    "name": "",
+                    "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+                  }
+                }
+              ],
+              "programs": []
+            }
+          ],
+          "day": "Saturday"
+        },
+        {
+          "date": "2025-03-02",
+          "periods": [
+            {
+              "id": null,
+              "description": "No timetabled class",
+              "attendancetype": {
+                "name": "",
+                "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+              },
+              "timetables": [
+                {
+                  "id": null,
+                  "description": "No timetabled class",
+                  "timetable": {
+                    "id": null,
+                    "starttime": "00:00:00",
+                    "endtime": "00:00:00",
+                    "class": {
+                      "id": null,
+                      "fullname": "No timetabled class",
+                      "displayname": "No timetabled class"
+                    },
+                    "period": {
+                      "id": "4",
+                      "name": "1",
+                      "position": "2",
+                      "timetableperiod": "1"
+                    }
+                  },
+                  "attendancetype": {
+                    "name": "",
+                    "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": null,
+              "description": "No timetabled class",
+              "attendancetype": {
+                "name": "",
+                "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+              },
+              "timetables": [
+                {
+                  "id": null,
+                  "description": "No timetabled class",
+                  "timetable": {
+                    "id": null,
+                    "starttime": "00:00:00",
+                    "endtime": "00:00:00",
+                    "class": {
+                      "id": null,
+                      "fullname": "No timetabled class",
+                      "displayname": "No timetabled class"
+                    },
+                    "period": {
+                      "id": "5",
+                      "name": "2",
+                      "position": "3",
+                      "timetableperiod": "2"
+                    }
+                  },
+                  "attendancetype": {
+                    "name": "",
+                    "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": null,
+              "description": "No timetabled class",
+              "attendancetype": {
+                "name": "",
+                "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+              },
+              "timetables": [
+                {
+                  "id": null,
+                  "description": "No timetabled class",
+                  "timetable": {
+                    "id": null,
+                    "starttime": "00:00:00",
+                    "endtime": "00:00:00",
+                    "class": {
+                      "id": null,
+                      "fullname": "No timetabled class",
+                      "displayname": "No timetabled class"
+                    },
+                    "period": {
+                      "id": "3",
+                      "name": "3",
+                      "position": "7",
+                      "timetableperiod": "3"
+                    }
+                  },
+                  "attendancetype": {
+                    "name": "",
+                    "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": null,
+              "description": "No timetabled class",
+              "attendancetype": {
+                "name": "",
+                "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+              },
+              "timetables": [
+                {
+                  "id": null,
+                  "description": "No timetabled class",
+                  "timetable": {
+                    "id": null,
+                    "starttime": "00:00:00",
+                    "endtime": "00:00:00",
+                    "class": {
+                      "id": null,
+                      "fullname": "No timetabled class",
+                      "displayname": "No timetabled class"
+                    },
+                    "period": {
+                      "id": "1",
+                      "name": "4",
+                      "position": "8",
+                      "timetableperiod": "4"
+                    }
+                  },
+                  "attendancetype": {
+                    "name": "",
+                    "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": null,
+              "description": "No timetabled class",
+              "attendancetype": {
+                "name": "",
+                "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+              },
+              "timetables": [
+                {
+                  "id": null,
+                  "description": "No timetabled class",
+                  "timetable": {
+                    "id": null,
+                    "starttime": "00:00:00",
+                    "endtime": "00:00:00",
+                    "class": {
+                      "id": null,
+                      "fullname": "No timetabled class",
+                      "displayname": "No timetabled class"
+                    },
+                    "period": {
+                      "id": "2",
+                      "name": "5",
+                      "position": "11",
+                      "timetableperiod": "5"
+                    }
+                  },
+                  "attendancetype": {
+                    "name": "",
+                    "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+                  }
+                }
+              ],
+              "programs": []
+            },
+            {
+              "id": null,
+              "description": "No timetabled class",
+              "attendancetype": {
+                "name": "",
+                "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+              },
+              "timetables": [
+                {
+                  "id": null,
+                  "description": "No timetabled class",
+                  "timetable": {
+                    "id": null,
+                    "starttime": "00:00:00",
+                    "endtime": "00:00:00",
+                    "class": {
+                      "id": null,
+                      "fullname": "No timetabled class",
+                      "displayname": "No timetabled class"
+                    },
+                    "period": {
+                      "id": "6",
+                      "name": "6",
+                      "position": "12",
+                      "timetableperiod": "6"
+                    }
+                  },
+                  "attendancetype": {
+                    "name": "",
+                    "dotimage": "//pmsc.xuno.com.au/images/dotempty.png"
+                  }
+                }
+              ],
+              "programs": []
+            }
+          ],
+          "day": "Sunday"
+        }
+      ],
+      "periods": [
+        {
+          "id": "4",
+          "name": "1",
+          "position": "2",
+          "timetableperiod": "1"
+        },
+        {
+          "id": "5",
+          "name": "2",
+          "position": "3",
+          "timetableperiod": "2"
+        },
+        {
+          "id": "3",
+          "name": "3",
+          "position": "7",
+          "timetableperiod": "3"
+        },
+        {
+          "id": "1",
+          "name": "4",
+          "position": "8",
+          "timetableperiod": "4"
+        },
+        {
+          "id": "2",
+          "name": "5",
+          "position": "11",
+          "timetableperiod": "5"
+        },
+        {
+          "id": "6",
+          "name": "6",
+          "position": "12",
+          "timetableperiod": "6"
+        }
+      ],
+      "days": [
+        "Mon W1",
+        "Tue W1",
+        "Wed W1",
+        "Thu W1",
+        "Fri W1",
+        "Saturday",
+        "Sunday"
+      ],
+      "teachers": [
+        "BLA - A. Blau",
+        "HUR - N. Hurley",
+        "HAM - J. Hammer",
+        "JOH - T. Johns",
+        "JAC - G. Jacoel-kaminsky",
+        "DOV - V. Doull",
+        "PUX - G. Puxley"
+      ],
+      "scheduled_programs": [
+        {
+          "id": "315",
+          "session_id": "28",
+          "student_id": "46",
+          "program_id": "315",
+          "session_date": "2025-02-25",
+          "session_time": "09:40:00",
+          "mark_attendance_type_id": null,
+          "has_clashes": "0",
+          "name": "VSV - Unit 1 & 2 Applied Computing",
+          "duration": "50",
+          "room_name": "Library - Ground Floor",
+          "end_time": "10:30:00",
+          "session_start_time": "09:40am",
+          "session_end_time": "10:30am"
+        },
+        {
+          "id": "315",
+          "session_id": "31",
+          "student_id": "46",
+          "program_id": "315",
+          "session_date": "2025-02-28",
+          "session_time": "11:00:00",
+          "mark_attendance_type_id": null,
+          "has_clashes": "0",
+          "name": "VSV - Unit 1 & 2 Applied Computing",
+          "duration": "50",
+          "room_name": "Library - Ground Floor",
+          "end_time": "11:50:00",
+          "session_start_time": "11:00am",
+          "session_end_time": "11:50am"
+        },
+        {
+          "id": "315",
+          "session_id": "34",
+          "student_id": "46",
+          "program_id": "315",
+          "session_date": "2025-02-28",
+          "session_time": "11:50:00",
+          "mark_attendance_type_id": null,
+          "has_clashes": "0",
+          "name": "VSV - Unit 1 & 2 Applied Computing",
+          "duration": "50",
+          "room_name": "Library - Ground Floor",
+          "end_time": "12:40:00",
+          "session_start_time": "11:50am",
+          "session_end_time": "12:40pm"
+        }
+      ],
+      "sessions_by_date": {
+        "2025-02-25": [
+          {
+            "id": "315",
+            "session_id": "28",
+            "student_id": "46",
+            "program_id": "315",
+            "session_date": "2025-02-25",
+            "session_time": "09:40:00",
+            "mark_attendance_type_id": null,
+            "has_clashes": "0",
+            "name": "VSV - Unit 1 & 2 Applied Computing",
+            "duration": "50",
+            "room_name": "Library - Ground Floor",
+            "end_time": "10:30:00",
+            "session_start_time": "09:40am",
+            "session_end_time": "10:30am"
+          }
+        ],
+        "2025-02-28": [
+          {
+            "id": "315",
+            "session_id": "31",
+            "student_id": "46",
+            "program_id": "315",
+            "session_date": "2025-02-28",
+            "session_time": "11:00:00",
+            "mark_attendance_type_id": null,
+            "has_clashes": "0",
+            "name": "VSV - Unit 1 & 2 Applied Computing",
+            "duration": "50",
+            "room_name": "Library - Ground Floor",
+            "end_time": "11:50:00",
+            "session_start_time": "11:00am",
+            "session_end_time": "11:50am"
+          },
+          {
+            "id": "315",
+            "session_id": "34",
+            "student_id": "46",
+            "program_id": "315",
+            "session_date": "2025-02-28",
+            "session_time": "11:50:00",
+            "mark_attendance_type_id": null,
+            "has_clashes": "0",
+            "name": "VSV - Unit 1 & 2 Applied Computing",
+            "duration": "50",
+            "room_name": "Library - Ground Floor",
+            "end_time": "12:40:00",
+            "session_start_time": "11:50am",
+            "session_end_time": "12:40pm"
+          }
+        ]
+      },
+      "timetable_exist": true,
+      "student_sessions_exist": true,
+      "student_sessions": [
+        {
+          "date": "2025-02-24"
+        },
+        {
+          "date": "2025-02-25",
+          "sessions": [
+            {
+              "id": "339",
+              "session_id": "28",
+              "student_id": "46",
+              "program_id": "315",
+              "session_date": "2025-02-25",
+              "session_time": "09:40:00",
+              "mark_attendance_type_id": null,
+              "has_clashes": "0",
+              "category_id": "435",
+              "name": "Library - Ground Floor",
+              "date_from": "2025-02-04",
+              "date_to": "2025-06-20",
+              "time_from": "09:00:00",
+              "time_to": "15:00:00",
+              "duration": "50",
+              "description": "",
+              "requirements": "",
+              "student_scheduled_type": "I",
+              "subject_code": null,
+              "subject_name": null,
+              "class_code": null,
+              "room_id": "49",
+              "parent_approval_required": "0",
+              "payment_due_date": null,
+              "approval_due_date": null,
+              "form_due_date": null,
+              "additional_notes": null,
+              "approved": "1",
+              "published": "1",
+              "approved_by": null,
+              "created_by": "12",
+              "last_modified": "2025-02-04 21:31:59",
+              "resourcebookingcategoryid": "13",
+              "ttname": "LIB1",
+              "imported": "0",
+              "multiplebookings": "0",
+              "hidden": "0",
+              "staff_id": "6453",
+              "first_aid_certificate": "0",
+              "relief_teacher_required": "0",
+              "supervising": "1",
+              "room_name": "Library - Ground Floor",
+              "program_name": "VSV - Unit 1 & 2 Applied Computing",
+              "session_start_time": "09:40am",
+              "session_end_time": "10:30am"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-26"
+        },
+        {
+          "date": "2025-02-27"
+        },
+        {
+          "date": "2025-02-28",
+          "sessions": [
+            {
+              "id": "339",
+              "session_id": "31",
+              "student_id": "46",
+              "program_id": "315",
+              "session_date": "2025-02-28",
+              "session_time": "11:00:00",
+              "mark_attendance_type_id": null,
+              "has_clashes": "0",
+              "category_id": "435",
+              "name": "Library - Ground Floor",
+              "date_from": "2025-02-04",
+              "date_to": "2025-06-20",
+              "time_from": "09:00:00",
+              "time_to": "15:00:00",
+              "duration": "50",
+              "description": "",
+              "requirements": "",
+              "student_scheduled_type": "I",
+              "subject_code": null,
+              "subject_name": null,
+              "class_code": null,
+              "room_id": "49",
+              "parent_approval_required": "0",
+              "payment_due_date": null,
+              "approval_due_date": null,
+              "form_due_date": null,
+              "additional_notes": null,
+              "approved": "1",
+              "published": "1",
+              "approved_by": null,
+              "created_by": "12",
+              "last_modified": "2025-02-04 21:31:59",
+              "resourcebookingcategoryid": "13",
+              "ttname": "LIB1",
+              "imported": "0",
+              "multiplebookings": "0",
+              "hidden": "0",
+              "staff_id": "6453",
+              "first_aid_certificate": "0",
+              "relief_teacher_required": "0",
+              "supervising": "1",
+              "room_name": "Library - Ground Floor",
+              "program_name": "VSV - Unit 1 & 2 Applied Computing",
+              "session_start_time": "11:00am",
+              "session_end_time": "11:50am"
+            },
+            {
+              "id": "339",
+              "session_id": "34",
+              "student_id": "46",
+              "program_id": "315",
+              "session_date": "2025-02-28",
+              "session_time": "11:50:00",
+              "mark_attendance_type_id": null,
+              "has_clashes": "0",
+              "category_id": "435",
+              "name": "Library - Ground Floor",
+              "date_from": "2025-02-04",
+              "date_to": "2025-06-20",
+              "time_from": "09:00:00",
+              "time_to": "15:00:00",
+              "duration": "50",
+              "description": "",
+              "requirements": "",
+              "student_scheduled_type": "I",
+              "subject_code": null,
+              "subject_name": null,
+              "class_code": null,
+              "room_id": "49",
+              "parent_approval_required": "0",
+              "payment_due_date": null,
+              "approval_due_date": null,
+              "form_due_date": null,
+              "additional_notes": null,
+              "approved": "1",
+              "published": "1",
+              "approved_by": null,
+              "created_by": "12",
+              "last_modified": "2025-02-04 21:31:59",
+              "resourcebookingcategoryid": "13",
+              "ttname": "LIB1",
+              "imported": "0",
+              "multiplebookings": "0",
+              "hidden": "0",
+              "staff_id": "6453",
+              "first_aid_certificate": "0",
+              "relief_teacher_required": "0",
+              "supervising": "1",
+              "room_name": "Library - Ground Floor",
+              "program_name": "VSV - Unit 1 & 2 Applied Computing",
+              "session_start_time": "11:50am",
+              "session_end_time": "12:40pm"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-01"
+        },
+        {
+          "date": "2025-03-02"
+        }
+      ],
+      "action_button": {
+        "last": "2025-02-17",
+        "next": "2025-03-03"
+      }
+    },
+    "meta": {
+      "messages": {
+        "error": [],
+        "info": [],
+        "success": [],
+        "warning": []
+      }
+    }
+  }
