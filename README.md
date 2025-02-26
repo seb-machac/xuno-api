@@ -13,3 +13,8 @@ Double click "timetable?date=your_date&session=your_session_key.
 Click the pretty print button in the top left-hand corner.
 Press control + A to select everything.
 copy it all, and paste it into a new file called timetable.json.
+
+
+To Do:
+Port to JS
+Set up GUI
