@@ -1,3 +1,3 @@
 import func
 
-func.main(day, periodnum)
+func.main()
