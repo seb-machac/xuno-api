@@ -5,7 +5,7 @@ from tkinter import *
 #-------------------------------------------------                                                                 Defining variable section
 window = Tk()
 window.title("main")
-window.geometry("120x150")
+window.geometry("120x200")
 
 database = "timetable.json"
 data = json.loads(open("timetable.json").read())                                                                   #Parses json file
@@ -18,11 +18,13 @@ days = {"monday": 0, "mon": 0,                                                  
         "wednesday": 2, "wed": 2,
         "thursday": 3, "thu": 3,
         "friday": 4, "fri": 4,}
-
+ClassName = "none"
+ClassRoom = "none"
 #-------------------------------------------------                                                                 Main function section
 
 def GetClass():
-
+    global ClassName
+    global ClassRoom
     global vsv
     vsv = False
 
@@ -33,16 +35,20 @@ def GetClass():
     if period - 1 < 6:
         pass                                                                                                       #Exits if statement if valid day
     else:
-        period = 5                                                                                                 #Sets period number as 5 if not valid day
+        return                                                                                                     #Exits function if not a valid period
 
     if "description" in data["data"]["dates"][day]["periods"][period - 1]["timetables"][0]:                        #Checks if period is vsv
-        print(data["data"]["dates"][day]["periods"][period - 1]["programs"][0]["name"])
-        print(data["data"]["dates"][day]["periods"][period - 1]["programs"][0]["room_name"])                       #Prints vsv data
-        vsv = True
+        ClassName = data["data"]["dates"][day]["periods"][period - 1]["programs"][0]["name"]
+        ClassRoom = data["data"]["dates"][day]["periods"][period - 1]["programs"][0]["room_name"]                  #Prints vsv data
+        ClassNameLabel.config(text= ClassName)
+        ClassRoomLabel.config(text= ClassRoom)
+
     else:
         if period - 1 < 6 and vsv == False:                                                                        #Gets and prints current class
-            print(data["data"]["dates"][day]["periods"][period - 1]["className"])
-            print(data["data"]["dates"][day]["periods"][period - 1]["timetables"][0]["timetable"]["roomlist"])
+            ClassName = data["data"]["dates"][day]["periods"][period - 1]["className"]
+            ClassRoom = data["data"]["dates"][day]["periods"][period - 1]["timetables"][0]["timetable"]["roomlist"]
+            ClassNameLabel.config(text= ClassName)
+            ClassRoomLabel.config(text= ClassRoom)
         elif vsv == False:
             print("Not a valid day")
 
@@ -60,7 +66,7 @@ DayEntry = Entry(window,                                                        
                  bg="White",
                  bd=2,
                  #font=
-                 fg="grey",
+                 fg="Black",
                  #justify=
                  relief=FLAT,
                  show="",
@@ -77,7 +83,7 @@ PeriodEntry = Entry(window,                                                     
                     bg="White",
                     bd=2,
                     #font=
-                    fg="grey",
+                    fg="Black",
                     #justify=
                     relief=FLAT,
                     show="",
@@ -89,6 +95,15 @@ GetClassButton = Button(window,                                                 
                         text="click",
                         command=GetClass)
 
+ClassNameLabel = Label(window,                                                                                        #Creates a Period label
+                 bg="White",
+                 fg="Black",
+                 text=ClassName)
+
+ClassRoomLabel = Label(window,                                                                                        #Creates a Period label
+                 bg="White",
+                 fg="Black",
+                 text=ClassRoom)
 
 DayLabel.grid(column=1, row=1)                                                                                     #Initialises DayLabel
 DayEntry.grid(column=1, row=2, pady = (0,0))                                                                       #Initialises DayEntry
@@ -97,5 +112,8 @@ PeriodLabel.grid(column=1, row=3, pady = (10,0))                                
 PeriodEntry.grid(column=1, row=4, pady = (0,0))                                                                    #Initialises PeriodEntry
 
 GetClassButton.grid(column=1, row=5)                                                                               #Initialises GetClassButton
+
+ClassNameLabel.grid(column=1, row=6, pady = (10,0))
+ClassRoomLabel.grid(column=1, row=7, pady = (0,0))
 
 window.mainloop()                                                                                                  #Starts the mainloop
