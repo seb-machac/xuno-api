@@ -47,19 +47,11 @@ ClassRoom = "none"
 vsv = False
 #-------------------------------------------------                                                                 Main function section
 
-def GetClass():
+def GetClass(day, period):
     global ClassName
     global ClassRoom
     global vsv
 
-    day = DayLinker.get(DayComboboxVars.get(), 5)                                                                #Gets DayVar from entry and sets it to day
-
-    period = PeriodLinker.get(PeriodComboboxVars.get(), 5)                                                                            #Get PeriodVar from entry and sets it to period
-
-    if period - 1 < 6:
-        pass                                                                                                       #Exits if statement if valid day
-    else:
-        return                                                                                                     #Exits function if not a valid period
 
     if "description" in data["data"]["dates"][day]["periods"][period]["timetables"][0]:                        #Checks if period is vsv
         ClassName = data["data"]["dates"][day]["periods"][period]["programs"][0]["name"]
@@ -67,14 +59,11 @@ def GetClass():
         ClassNameLabel.config(text= ClassName)
         ClassRoomLabel.config(text= ClassRoom)
 
-    else:
-        if period - 1 < 6 and vsv == False:                                                                        #Gets and prints current class
+    else:                                                                        #Gets and prints current class
             ClassName = data["data"]["dates"][day]["periods"][period]["className"]
             ClassRoom = data["data"]["dates"][day]["periods"][period]["timetables"][0]["timetable"]["roomlist"]
             ClassNameLabel.config(text= ClassName)
             ClassRoomLabel.config(text= ClassRoom)
-        elif vsv == False:
-            print("Not a valid day")
 
 
 #-------------------------------------------------                                                                 Tkinter section
@@ -86,21 +75,29 @@ DayLabel = Label(window,                                                        
                  text="Enter Day:")
 
 
-DayCombobox = ttk.Combobox(window, state= "readonly", values=DaysCombo, textvariable=DayComboboxVars) 
+DayCombobox = ttk.Combobox(window, 
+                           state= "readonly", 
+                           values=DaysCombo, 
+                           textvariable=DayComboboxVars) 
 
 PeriodLabel = Label(window,                                                                                        #Creates a Period label
                  bg="White",
                  fg="Black",
                  text="Enter Period:")
 
-PeriodCombobox = ttk.Combobox(window, state= "readonly", values=PeriodsCombo, textvariable=PeriodComboboxVars) 
+PeriodCombobox = ttk.Combobox(window, 
+                              state= "readonly", 
+                              values=PeriodsCombo, 
+                              textvariable=PeriodComboboxVars) 
 
 
 
 
 GetClassButton = Button(window,                                                                                    #Creates a Get Class Button
                         text="click",
-                        command=GetClass)
+                        command= 
+                        lambda: GetClass(DayLinker.get(DayComboboxVars.get(), 5), 
+                                         PeriodLinker.get(PeriodComboboxVars.get(), 5)))
 
 ClassNameLabel = Label(window,                                                                                        #Creates a Period label
                  bg="White",
@@ -112,15 +109,30 @@ ClassRoomLabel = Label(window,                                                  
                  fg="Black",
                  text=ClassRoom)
 
-DayLabel.grid(column=1, row=1)                                                                                     #Initialises DayLabel
-DayCombobox.grid(column=1, row=2, pady = (0,0))                                                                       #Initialises DayEntry
+DayLabel.grid(column=1, 
+              row=1)                                                                                     #Initialises DayLabel
 
-PeriodLabel.grid(column=1, row=3, pady = (10,0))                                                                   #Initialises PeriodLabel
-PeriodCombobox.grid(column=1, row=4, pady = (0,0))                                                                    #Initialises PeriodEntry
+DayCombobox.grid(column=1, 
+                 row=2, 
+                 pady = (0,0))                                                                       #Initialises DayEntry
 
-GetClassButton.grid(column=1, row=5)                                                                               #Initialises GetClassButton
+PeriodLabel.grid(column=1, 
+                 row=3, 
+                 pady = (10,0))                                                                   #Initialises PeriodLabel
 
-ClassNameLabel.grid(column=1, row=6, pady = (10,0))
-ClassRoomLabel.grid(column=1, row=7, pady = (0,0))
+PeriodCombobox.grid(column=1, 
+                    row=4, 
+                    pady = (0,0))                                                                    #Initialises PeriodEntry
+
+GetClassButton.grid(column=1, 
+                    row=5)                                                                               #Initialises GetClassButton
+
+ClassNameLabel.grid(column=1, 
+                    row=6, 
+                    pady = (10,0))
+
+ClassRoomLabel.grid(column=1, 
+                    row=7, 
+                    pady = (0,0))
 
 window.mainloop()                                                                                                  #Starts the mainloop

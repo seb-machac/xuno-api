@@ -19,30 +19,25 @@ days = {
     "friday": 4, "fri": 4,
 }
 
-day = days.get(input("What day? ").strip().lower(), 5) #asks for day
+def ClassesInput():
+    GetClasses(days.get(input("What day? ").strip().lower(), 5), int(input("What period? ")) - 1)
+    
+def GetClasses(day, period):
+    
+    vsv = False
+    if "description" in data["data"]["dates"][day]["periods"][period]["timetables"][0]: #checks if period is vsv
+        ClassName = data["data"]["dates"][day]["periods"][period]["programs"][0]["name"]
+        ClassRoom = data["data"]["dates"][day]["periods"][period]["programs"][0]["room_name"]
+        print(ClassName, ClassRoom) 
+        vsv = True
+    else:
+        isvsv = False
+        if day != 5 and period < 6 and vsv == False: #gets and prints current class
+            ClassName = data["data"]["dates"][day]["periods"][period]["className"]
+            ClassRoom = data["data"]["dates"][day]["periods"][period]["timetables"][0]["timetable"]["roomlist"]
+            print(ClassName, ClassRoom)
+            
+        elif vsv == False:
+            print("Not a valid day")
 
-periodinput = input("What period? ") #asks for period
-
-#all of the variables are set
-
-
-if int(periodinput) < 7:
-    periodnum = int(periodinput) - 1
-else:
-    periodnum = 6 #sets period number
-
-
-if "description" in data["data"]["dates"][day]["periods"][periodnum]["timetables"][0]: #checks if period is vsv
-    ClassName = data["data"]["dates"][day]["periods"][periodnum]["programs"][0]["name"]
-    ClassRoom = data["data"]["dates"][day]["periods"][periodnum]["programs"][0]["room_name"]
-    print(ClassName, ClassRoom) 
-    vsv = True
-else:
-    isvsv = False
-    if day != 5 and periodnum < 6 and vsv == False: #gets and prints current class
-        ClassName = data["data"]["dates"][day]["periods"][periodnum]["className"]
-        ClassRoom = data["data"]["dates"][day]["periods"][periodnum]["timetables"][0]["timetable"]["roomlist"]
-        print(ClassName, ClassRoom)
-        
-    elif vsv == False:
-        print("Not a valid day")
+GetClasses(days.get(input("What day? ").strip().lower(), 5), int(input("What period? ")) - 1)
