@@ -23,7 +23,7 @@ PeriodLinker = {"Period 1": 0,
               "Period 5": 4,
               "Period 6": 5}
 
-DayLinker = {"Monday": 0,                                                                                   #Connect day strings to corresponding integers
+DayLinker = {"Monday": 0,                                                                                          #Connect day strings to corresponding integers
              "Tuesday": 1,
              "Wednesday": 2,
              "Thursday": 3,
@@ -45,21 +45,30 @@ PeriodsCombo = ("Period 1",
 ClassName = "none"
 ClassRoom = "none"
 vsv = False
+ManualInput = False
 #-------------------------------------------------                                                                 Main function section
 
 def GetClass(day, period):
     global ClassName
     global ClassRoom
     global vsv
+    global ManualInput
 
 
-    if "description" in data["data"]["dates"][day]["periods"][period]["timetables"][0]:                        #Checks if period is vsv
+    if "description" in data["data"]["dates"][day]["periods"][period]["timetables"][0]:                            #Checks if period is vsv
         ClassName = data["data"]["dates"][day]["periods"][period]["programs"][0]["name"]
-        ClassRoom = data["data"]["dates"][day]["periods"][period]["programs"][0]["room_name"]                  #Prints vsv data
-        ClassNameLabel.config(text= ClassName)
-        ClassRoomLabel.config(text= ClassRoom)
+        ClassRoom = data["data"]["dates"][day]["periods"][period]["programs"][0]["room_name"]                      #Prints vsv data
+        if __name__ == '__main__':
+            ClassNameLabel.config(text= ClassName)
+            ClassRoomLabel.config(text= ClassRoom)
+        else:
+            if ManualInput == True:
+                ClassNameLabel.config(text= ClassName)
+                ClassRoomLabel.config(text= ClassRoom)
+            else:
+                 icon.notify(ClassName)
 
-    else:                                                                        #Gets and prints current class
+    else:                                                                                                          #Gets and prints current class
             ClassName = data["data"]["dates"][day]["periods"][period]["className"]
             ClassRoom = data["data"]["dates"][day]["periods"][period]["timetables"][0]["timetable"]["roomlist"]
             ClassNameLabel.config(text= ClassName)
@@ -99,33 +108,33 @@ GetClassButton = Button(window,                                                 
                         lambda: GetClass(DayLinker.get(DayComboboxVars.get(), 5), 
                                          PeriodLinker.get(PeriodComboboxVars.get(), 5)))
 
-ClassNameLabel = Label(window,                                                                                        #Creates a Period label
+ClassNameLabel = Label(window,                                                                                     #Creates a Period label
                  bg="White",
                  fg="Black",
                  text=ClassName)
 
-ClassRoomLabel = Label(window,                                                                                        #Creates a Period label
+ClassRoomLabel = Label(window,                                                                                     #Creates a Period label
                  bg="White",
                  fg="Black",
                  text=ClassRoom)
 
 DayLabel.grid(column=1, 
-              row=1)                                                                                     #Initialises DayLabel
+              row=1)                                                                                               #Initialises DayLabel
 
 DayCombobox.grid(column=1, 
                  row=2, 
-                 pady = (0,0))                                                                       #Initialises DayEntry
+                 pady = (0,0))                                                                                     #Initialises DayEntry
 
 PeriodLabel.grid(column=1, 
                  row=3, 
-                 pady = (10,0))                                                                   #Initialises PeriodLabel
+                 pady = (10,0))                                                                                    #Initialises PeriodLabel
 
 PeriodCombobox.grid(column=1, 
                     row=4, 
-                    pady = (0,0))                                                                    #Initialises PeriodEntry
+                    pady = (0,0))                                                                                  #Initialises PeriodEntry
 
 GetClassButton.grid(column=1, 
-                    row=5)                                                                               #Initialises GetClassButton
+                    row=5)                                                                                         #Initialises GetClassButton
 
 ClassNameLabel.grid(column=1, 
                     row=6, 
@@ -135,4 +144,5 @@ ClassRoomLabel.grid(column=1,
                     row=7, 
                     pady = (0,0))
 
-window.mainloop()                                                                                                  #Starts the mainloop
+if __name__ == '__main__':                                                                                         #Checks if script is run as main file or imported as a library
+    window.mainloop()                                                                                              #if file was ran as main script then initialise the root window
