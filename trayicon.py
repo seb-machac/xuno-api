@@ -25,11 +25,17 @@ days = {
 image = Image.open("assets/Xuno.png")
 
 def GetCurrentClass():
+    GUI.ManualInput = False
     lambda icon, item: icon.notify('Hello World!')
+    print("Hello World")
+
+def InputClass():
+    ManualInput = True
+    GUI.window.mainloop()
 
 icon = pystray.Icon("Timetable", image, "GeeksforGeeks", 
 					menu=pystray.Menu( 
-    pystray.MenuItem("Get current class", lambda: icon.notify('Hello World!')),
+    pystray.MenuItem("Get current class", GetCurrentClass),
 	pystray.MenuItem("Input Class", lambda: GUI.window.mainloop()),
 	pystray.MenuItem("Exit", lambda: icon.stop())))
 
