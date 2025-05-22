@@ -16,5 +16,6 @@ copy it all, and paste it into a new file called timetable.json.
 
 
 To Do:
+Create automatic class GUI
 Port to JS
-Set up GUI
+Create Android app
