@@ -1,17 +1,19 @@
-import pystray
-from PIL import Image
+import time
+import json
 
 
+database = "timetable.json"
+data = json.loads(open("timetable.json").read()) 
+day = 0
+period = 0
+times = 1748141738.6596377
+U = time.strftime("%c", times.localtime())
+W = time.localtime(1748141738.6596377)
 
-image = Image.open("assets/Xuno.png")
-
-def GetCurrentClass():
-    icon.notify('Hello World!')
-
-icon = pystray.Icon("Timetable", image, "GeeksforGeeks", 
-					menu=pystray.Menu( 
-    pystray.MenuItem("Get current class", GetCurrentClass),
-	pystray.MenuItem("Exit", lambda: icon.stop())))
+print(U)
+print(W)
 
 
-icon.run()
+periods = {
+    
+}

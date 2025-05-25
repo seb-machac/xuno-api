@@ -2,6 +2,7 @@
 import json
 from tkinter import *
 from tkinter import ttk
+import time
 
 #-------------------------------------------------                                                                 Defining variable section
 window = Tk()
@@ -47,6 +48,9 @@ ClassRoom = "none"
 vsv = False
 ManualInput = False
 #-------------------------------------------------                                                                 Main function section
+def GetTime():
+    day = int(time.strftime("%u",time.localtime())) - 1
+    #period = 
 
 def GetClass(day, period):
     global ClassName
@@ -65,8 +69,6 @@ def GetClass(day, period):
             if ManualInput == True:
                 ClassNameLabel.config(text= ClassName)
                 ClassRoomLabel.config(text= ClassRoom)
-            else:
-                 icon.notify(ClassName)
 
     else:                                                                                                          #Gets and prints current class
             ClassName = data["data"]["dates"][day]["periods"][period]["className"]
