@@ -53,6 +53,7 @@ def GetTime():
     #period = 
 
 def GetClass(day, period):
+    print("1")
     global ClassName
     global ClassRoom
     global vsv
@@ -62,19 +63,36 @@ def GetClass(day, period):
     if "description" in data["data"]["dates"][day]["periods"][period]["timetables"][0]:                            #Checks if period is vsv
         ClassName = data["data"]["dates"][day]["periods"][period]["programs"][0]["name"]
         ClassRoom = data["data"]["dates"][day]["periods"][period]["programs"][0]["room_name"]                      #Prints vsv data
+        print("2")
         if __name__ == '__main__':
             ClassNameLabel.config(text= ClassName)
             ClassRoomLabel.config(text= ClassRoom)
         else:
+            print("3")
             if ManualInput == True:
                 ClassNameLabel.config(text= ClassName)
                 ClassRoomLabel.config(text= ClassRoom)
+<<<<<<< HEAD
+=======
+            elif ManualInput == False:
+                print("4")
+                icon.notify(ClassName)
+>>>>>>> a32722a035d9a3d6c03413a0716c103adaf3aeb2
 
     else:                                                                                                          #Gets and prints current class
             ClassName = data["data"]["dates"][day]["periods"][period]["className"]
             ClassRoom = data["data"]["dates"][day]["periods"][period]["timetables"][0]["timetable"]["roomlist"]
-            ClassNameLabel.config(text= ClassName)
-            ClassRoomLabel.config(text= ClassRoom)
+            if __name__ == '__main__':
+                ClassNameLabel.config(text= ClassName)
+                ClassRoomLabel.config(text= ClassRoom)
+            else:
+                print("3")
+                if ManualInput == True:
+                    ClassNameLabel.config(text= ClassName)
+                    ClassRoomLabel.config(text= ClassRoom)
+                elif ManualInput == False:
+                    print("4")
+                    icon.notify(ClassName)
 
 
 #-------------------------------------------------                                                                 Tkinter section
