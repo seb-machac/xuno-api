@@ -11,8 +11,8 @@ driver = webdriver.Chrome(options=options)
 
 driver.get("https://pmsc.xuno.com.au/index.php/login")
 
-driver.find_element(By.NAME, "username").send_keys("MAC0001")
-driver.find_element(By.NAME, "password").send_keys("Rat.4918")
+driver.find_element(By.NAME, "username").send_keys("Your username here")
+driver.find_element(By.NAME, "password").send_keys("Your password here")
 driver.find_element(By.XPATH, "//button[text()='Sign-in']").click()
 
 time.sleep(5)  # You could wait for a specific element instead
