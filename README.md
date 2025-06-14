@@ -7,4 +7,5 @@ To use:
 4.  Under "Personalise your background, select the "Slideshow" option.
 5.  Click the browse button bellow that and select the "Images" folder inside this one.
 6.  Then run the "Get_Images.py" file and your all good!
+
 Optionally you could use Task Scheduler to run "Get_Images.py" periodically.
