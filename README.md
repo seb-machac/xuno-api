@@ -20,3 +20,5 @@ To Do:
     Make the GUI look better
     find and return current class
     return full day schedule
+    Port to JS
+    Create Android app
