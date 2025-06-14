@@ -11,6 +11,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+import time
 
 #Set up all the configurations
 options = Options()
@@ -29,6 +30,7 @@ driver.find_element(By.XPATH, "//button[text()='Sign-in']").click()             
 
 #Main page
 element = wait.until(EC.element_to_be_clickable((By.CLASS_NAME, "title")))                  #Waits for the timetable button to be clickable
+time.sleep(1)                                                                               #Half the time the timetable button exists but cant be pressed
 element.click()                                                                             #Clicks the timetable button
 
 #Timetable page
